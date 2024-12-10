@@ -16,7 +16,7 @@ from src.exception import CustomException
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path: str = os.path.join('artifacts', "preprocessor.pkl")
+    preprocessor_obj_file_path: str = os.path.join('artifact', "preprocessor.pkl")
 
 
 class DataTransformation:
